@@ -1,0 +1,60 @@
+/* Buttons */
+.btn-primary {
+    background: var(--color-white);
+    color: var(--color-primary);
+    border: 2px solid var(--color-white);
+    box-shadow: 0 .75rem .75rem rgba(253, 200, 48, .1);
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: 6px;
+    padding: 1.25rem 2rem;
+    cursor: pointer;
+    transition: .3s ease all;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background: transparent;
+    color: var(--color-white);
+}
+
+.btn-secondary {
+    background: var(--gradient-primary);
+    color: var(--color-white);
+    box-shadow: 0 .75rem .75rem rgba(0, 0, 0, .1);
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: 6px;
+    padding: 1.25rem 2rem;
+    cursor: pointer;
+    transition: .3s all;
+    text-decoration: none;
+}
+
+.btn-secondary:hover {
+    background: var(--color-dark-grey);
+    color: var(--color-white);
+}
+
+.btn-tertiary {
+    background: var(--color-dark-grey);
+    color: var(--color-white);
+    border: 2px solid var(--color-dark-grey);
+    box-shadow: 0 .75rem .75rem rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: 6px;
+    padding: 1.25rem 2rem;
+    cursor: pointer;
+    transition: .3s all;
+    text-decoration: none;
+}
+
+.btn-tertiary:hover {
+    background: var(--gradient-primary);
+    color: var(--color-white);
+    border: none;
+}
